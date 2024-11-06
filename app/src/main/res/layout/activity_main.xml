@@ -5,15 +5,95 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D4A67C"
     tools:context=".MainActivity">
 
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="268dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:inputType="text"
+        android:text="Los Fazeres"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        android:typeface="normal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="71dp" />
+
     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="109dp"
+        android:layout_height="47dp"
+        android:fontFamily="casual"
+        android:text="Email"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="136dp"
+        android:layout_height="52dp"
+        android:fontFamily="casual"
+        android:text="Senha"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="159dp"
+        android:layout_height="111dp"
+        android:background="#634EA4"
+        app:srcCompat="@android:drawable/arrow_down_float"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="156dp"
+        tools:srcCompat="@android:drawable/ic_menu_today" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="222dp"
+        android:layout_height="87dp"
+        android:fontFamily="casual"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="479dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
